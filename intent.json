@@ -1,0 +1,632 @@
+{
+    "languageModel": {
+        "invocationName": "indian capitals",
+        "intents": [
+            {
+                "name": "AMAZON.CancelIntent",
+                "slots": [],
+                "samples": []
+            },
+            {
+                "name": "AMAZON.HelpIntent",
+                "slots": [],
+                "samples": []
+            },
+            {
+                "name": "AMAZON.StopIntent",
+                "slots": [],
+                "samples": []
+            },
+            {
+                "name": "getCapitalIntent",
+                "slots": [
+                    {
+                        "name": "city",
+                        "type": "LIST_OF_CITIES"
+                    }
+                ],
+                "samples": [
+                    "alexa ask indian capital to tell me the capital of {city}",
+                    "what is the capital of {city}",
+                    "what's the capital of {city}",
+                    "{city} capital",
+                    "capital of {city}",
+                    "capital {city}",
+                    "give me the capital of {city}",
+                    "tell me the capital of {city}",
+                    "give me capital of {city}"
+                ]
+            },
+            {
+                "name": "getCityIntent",
+                "slots": [
+                    {
+                        "name": "capital",
+                        "type": "LIST_OF_CAPITALS"
+                    }
+                ],
+                "samples": [
+                    "alexa ask indian capitals to tell me the city whose capital is {capital}",
+                    "what is the city having capital {capital}",
+                    "what is the city of {capital}",
+                    "in which city is {capital}",
+                    "{capital} city",
+                    "city of {capital}",
+                    "give me the city having {capital}",
+                    "give me the city of {capital}",
+                    "tell me the city having {capital}",
+                    "tell me the city having capital as {capital}",
+                    "give me the city having capital as {capital}",
+                    "give me city of {capital}",
+                    "give me city having capital {capital}",
+                    "tell me the city having capital {capital}",
+                    "{capital} state",
+                    "give me the state having {capital}",
+                    "tell me state having capital {capital}",
+                    "give me the state of {capital}",
+                    "give me the state having capital as {capital}",
+                    "tell me the state having capital as {capital}",
+                    "in which state is {capital}",
+                    "what is the state of {capital}",
+                    "where is {capital}"
+                ]
+            }
+        ],
+        "types": [
+            {
+                "name": "LIST_OF_CAPITALS",
+                "values": [
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Hyderabad",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Itanagar",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Dispur",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Patna",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Panaji",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Gandhinagar",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Chandigarh",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Shimla",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Srinagar in Summer and Jammu in Winter",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Bangalooru",
+                            "synonyms": [
+                                "bangalore",
+                                "bangaluru"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Thiruvananthapuram",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Bhopal",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "mumbai",
+                            "synonyms": [
+                                "Bombay"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Imphal",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Shillong",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Aizawl",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Kohima",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Bhubaneshwar",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Jaipur",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Gangtok",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Chennai",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Agartala",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Lucknow",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Kolkata",
+                            "synonyms": [
+                                "Calcutta"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Raipur",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Dehradun",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Ranchi",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "new delhi",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "port blair",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "silvasa",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "daman",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "kavaratti",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "puducherry",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "srinagar",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "jammu",
+                            "synonyms": []
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "LIST_OF_CITIES",
+                "values": [
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Andhra Pradesh",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Arunachal Pradesh",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Assam",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Bihar",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Goa",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Gujarat",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Haryana",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Himachal Pradesh",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Jammu and Kashmir",
+                            "synonyms": [
+                                "Jammu Kashmir"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Karnataka",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Kerala",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Madhya Pradesh",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Maharashtra",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Manipur",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Meghalaya",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Mizoram",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Nagaland",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Orissa",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Punjab",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Rajasthan",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Sikkim",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Tamil Nadu",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Tripura",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Uttar Pradesh",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "West Bengal",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Chattisgarh",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Uttarakhand",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Jharkhand",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "Telangana",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "delhi",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "andaman and nicobar",
+                            "synonyms": [
+                                "andaman and nicobas islands",
+                                "andaman",
+                                "nicobar",
+                                "andaman nicobar"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "chandigarh",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "dadra and nagar haveli",
+                            "synonyms": [
+                                "dadar and nagar haveli"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "daman and diu",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "lakshadweep",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "puducherry",
+                            "synonyms": []
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "dialog": {
+        "intents": [
+            {
+                "name": "getCapitalIntent",
+                "confirmationRequired": true,
+                "prompts": {
+                    "confirmation": "Confirm.Intent-getCapitalIntent"
+                },
+                "slots": [
+                    {
+                        "name": "city",
+                        "type": "LIST_OF_CITIES",
+                        "confirmationRequired": false,
+                        "elicitationRequired": false,
+                        "prompts": {}
+                    }
+                ]
+            }
+        ]
+    },
+    "prompts": [
+        {
+            "id": "Confirm.Intent-getCapitalIntent",
+            "variations": [
+                {
+                    "type": "PlainText",
+                    "value": "You want the capital of {city}"
+                }
+            ]
+        }
+    ]
+}
